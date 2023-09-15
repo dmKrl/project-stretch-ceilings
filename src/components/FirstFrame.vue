@@ -28,7 +28,6 @@ export default {};
 }
 .information-box {
   margin: 80px 0px 101px 120px;
-  align-self: flex-start;
   font-family: Rubik;
   font-style: normal;
   line-height: normal;
@@ -36,7 +35,7 @@ export default {};
   line-height: 60px;
 }
 .information-heading {
-  color: var(--, #333);
+  color: #333;
   font-size: 3rem;
   max-width: 597px;
 }

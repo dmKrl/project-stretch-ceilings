@@ -7,7 +7,7 @@
         alt=""
       />
       <h4 class="advantage-heading"><slot></slot></h4>
-      <p class="advantage-text"><slot></slot></p>
+      <main-text-in-project></main-text-in-project>
     </div>
   </div>
 </template>
