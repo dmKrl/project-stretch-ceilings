@@ -1,7 +1,9 @@
 <template>
   <div class="logo">
-    <img class="logo-img" src="../../static/images/iconHouse.svg" alt="" />
-    <h4 class="logo-heading">Ceiling+</h4>
+    <div class="logo-up">
+      <img class="logo-img" src="../../static/images/iconHouse.svg" alt="" />
+      <h4 class="logo-heading">Ceiling+</h4>
+    </div>
     <p class="logo-text">Натяжные потолки в Казани</p>
   </div>
 </template>
@@ -23,6 +25,9 @@ export default {
 .logo-img {
   width: 20px;
   height: 20px;
+}
+.logo-up {
+  display: flex;
 }
 .logo-heading {
   color: #000;

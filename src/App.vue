@@ -3,6 +3,7 @@
     <header-main />
     <first-frame />
     <type-ceiling />
+    <footer-main />
   </div>
 </template>
 
@@ -10,11 +11,13 @@
 import HeaderMain from './components/HeaderMain';
 import FirstFrame from './components/FirstFrame';
 import TypeCeiling from './components/TypeCeiling';
+import FooterMain from './components/FooterMain';
 export default {
   components: {
     HeaderMain,
     FirstFrame,
     TypeCeiling,
+    FooterMain,
   },
 };
 </script>

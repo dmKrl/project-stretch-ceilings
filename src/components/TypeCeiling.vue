@@ -44,6 +44,7 @@ export default {
   justify-content: center;
   background: #f4f4f4;
   font-style: normal;
+  width: 100%;
   height: 992px;
 }
 .type-heading {

@@ -15,12 +15,12 @@ export default {
 .contact {
   display: flex;
   flex-direction: column;
-  text-align: end;
   text-align: right;
   font-family: Lato;
   font-style: normal;
   line-height: normal;
   font-size: 1rem;
+  gap: 5px;
 }
 .contact-phone {
   color: var(--, #333);

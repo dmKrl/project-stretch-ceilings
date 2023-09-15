@@ -22,7 +22,7 @@ export default {};
 .information {
   display: flex;
   align-self: flex-end;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100vw;
   margin-top: 20px;
 }

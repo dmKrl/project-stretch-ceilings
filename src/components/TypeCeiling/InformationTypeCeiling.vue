@@ -1,7 +1,7 @@
 <template>
   <div class="type-box">
-    <div class="type-swipper"></div>
     <div class="type-backscreen"></div>
+    <div class="type-swipper"></div>
     <div class="type-discription">
       <h3 class="type-discription-heading">Многоуровневые потолки</h3>
       <price-ceiling>200 ₽/м<sup>3</sup></price-ceiling>
@@ -24,9 +24,10 @@ export default {};
 
 <style scoped>
 .type-box {
-  width: 1269px;
-  height: 626px;
-  margin-top: 100px;
+  width: min(1229px, 87%);
+  height: min(992px, 100%);
+  margin-top: 48px;
+  margin-bottom: 100px;
   position: relative;
 }
 .type-swipper {
@@ -34,6 +35,8 @@ export default {};
   background-image: url(../../static/images/typeCeiling.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  left: 0;
+  top: 24px;
   width: 761px;
   height: 494px;
 }
@@ -41,6 +44,8 @@ export default {};
 .type-backscreen {
   position: absolute;
   background: #7772eb;
+  right: 0;
+  top: 0;
   width: 709px;
   height: 461px;
 }
@@ -51,6 +56,8 @@ export default {};
   flex-direction: column;
   align-items: flex-start;
   background: #fff;
+  bottom: 0;
+  right: 197px;
   padding: 48px;
   width: 412px;
   height: 527px;

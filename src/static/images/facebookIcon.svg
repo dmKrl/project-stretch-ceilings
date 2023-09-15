@@ -1,0 +1,14 @@
+<svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1">
+<ellipse id="Ellipse 2" cx="16" cy="15" rx="15" ry="16" transform="rotate(-90 16 15)" fill="url(#paint0_linear_10901_1540)"/>
+<g id="icon Facebook">
+<path id="Vector" d="M21.2136 16.6016L21.8359 12.8689H17.9452V10.4467C17.9452 9.42551 18.4887 8.43011 20.2312 8.43011H22V5.25217C22 5.25217 20.3949 5 18.8602 5C15.656 5 13.5617 6.78777 13.5617 10.0241V12.8689H10V16.6016H13.5617V25.625H17.9452V16.6016H21.2136Z" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_10901_1540" x1="4.12" y1="5.528" x2="28.652" y2="23.5731" gradientUnits="userSpaceOnUse">
+<stop stop-color="#615BD6"/>
+<stop offset="1" stop-color="#528FEF"/>
+</linearGradient>
+</defs>
+</svg>
