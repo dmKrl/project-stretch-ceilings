@@ -7,6 +7,7 @@
     <application-screen />
     <how-to-order />
     <popular-question />
+    <vantage-work-us />
     <footer-main />
   </div>
 </template>
@@ -20,6 +21,7 @@ import AdvantagesCeilings from './components/AdvantagesCeilings';
 import ApplicationScreen from './components/ApplicationScreen';
 import HowToOrder from './components/HowToOrder';
 import PopularQuestion from './components/PopularQuestion';
+import VantageWorkUs from './components/VantageWorkUs';
 export default {
   components: {
     HeaderMain,
@@ -30,6 +32,7 @@ export default {
     ApplicationScreen,
     HowToOrder,
     PopularQuestion,
+    VantageWorkUs,
   },
 };
 </script>
