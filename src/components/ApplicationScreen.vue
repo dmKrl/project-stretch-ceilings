@@ -7,9 +7,9 @@
           Оставьте заявку
           <price-ceiling><br />на бесплатный замер</price-ceiling>
         </h2>
-        <main-text-in-project style="margin-top: 24px"
+        <main-text style="margin-top: 24px"
           >Замерщик приедет в течение двух часов, поможет с выбором цвета,
-          фактуры и рассчитает окончательную стоимость</main-text-in-project
+          фактуры и рассчитает окончательную стоимость</main-text
         ><br />
         <button-price>Рассчитать стоимость</button-price>
       </div>

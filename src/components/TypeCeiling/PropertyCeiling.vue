@@ -27,7 +27,7 @@ export default {
   height: 4.5rem;
 }
 .advantage-box {
-  width: 258px;
+  max-width: 258px;
 }
 .advantage-heading {
   margin-top: 32px;

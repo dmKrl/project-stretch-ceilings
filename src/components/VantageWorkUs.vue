@@ -1,9 +1,9 @@
 <template>
-  <div class="order">
-    <h2 class="order-heading">Как заказать</h2>
+  <div class="vantage">
+    <h2 class="vantage-heading">Как заказать</h2>
     <property-ceiling
       style="display: flex; gap: 40px; margin-top: 64px; flex-wrap: wrap; justify-content: center;"
-      :advantage="order"
+      :advantage="vantage"
     />
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
   },
   data() {
     return {
-      order: [
+      vantage: [
         {
           img: '/img/firstNum.405f7b30.svg',
           heading: 'Заявка',
@@ -44,13 +44,13 @@ export default {
 </script>
 
 <style scoped>
-.order {
+.vantage {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 100px 140px;
 }
-.order-heading {
+.vantage-heading {
   color: #333;
   font-family: Rubik;
   font-size: 24px;

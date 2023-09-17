@@ -6,6 +6,7 @@
     <advantages-ceilings />
     <application-screen />
     <how-to-order />
+    <popular-question />
     <footer-main />
   </div>
 </template>
@@ -18,6 +19,7 @@ import FooterMain from './components/FooterMain';
 import AdvantagesCeilings from './components/AdvantagesCeilings';
 import ApplicationScreen from './components/ApplicationScreen';
 import HowToOrder from './components/HowToOrder';
+import PopularQuestion from './components/PopularQuestion';
 export default {
   components: {
     HeaderMain,
@@ -27,6 +29,7 @@ export default {
     AdvantagesCeilings,
     ApplicationScreen,
     HowToOrder,
+    PopularQuestion,
   },
 };
 </script>
