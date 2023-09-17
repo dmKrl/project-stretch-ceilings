@@ -4,27 +4,53 @@
       <price-ceiling>Преимущества</price-ceiling> натяжных потолков
     </h2>
     <div class="advantages-box">
-      <div class="advatages-box-up">
-        <advantage-ceiling />
-        <advantage-ceiling />
-      </div>
-      <div class="advatages-box-down">
-        <advantage-ceiling />
-        <advantage-ceiling />
-      </div>
+      <property-ceiling
+        :advantage="advantages"
+        style="display: grid; grid-template-columns: repeat(2, 4fr); gap: 40px"
+      />
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import PropertyCeiling from '@/components/TypeCeiling/PropertyCeiling';
+export default {
+  components: {
+    PropertyCeiling,
+  },
+  data() {
+    return {
+      advantages: [
+        {
+          img: '/img/waterSvg.1b239ec6.svg',
+          heading: 'Не затопят соседи',
+          text: 'Потолки выдерживают до 100 литров воды на м2',
+        },
+        {
+          img: '/img/waterSvg.1b239ec6.svg',
+          heading: 'Скорость установки',
+          text: 'Монтаж потолка занимает 3 - 4 часа',
+        },
+        {
+          img: '/img/waterSvg.1b239ec6.svg',
+          heading: 'Долговечность',
+          text: 'Со временем потолки не пожелтеют, не провиснут и не повредятся',
+        },
+        {
+          img: '/img/waterSvg.1b239ec6.svg',
+          heading: 'Простота ухода',
+          text: 'Достаточно протирать мыльной водой один раз в 3 месяца',
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped>
 .advantages {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 100px 0px;
   padding-right: 240px;
   padding-left: 140px;

@@ -5,6 +5,7 @@
     <type-ceiling />
     <advantages-ceilings />
     <application-screen />
+    <how-to-order />
     <footer-main />
   </div>
 </template>
@@ -16,6 +17,7 @@ import TypeCeiling from './components/TypeCeiling';
 import FooterMain from './components/FooterMain';
 import AdvantagesCeilings from './components/AdvantagesCeilings';
 import ApplicationScreen from './components/ApplicationScreen';
+import HowToOrder from './components/HowToOrder';
 export default {
   components: {
     HeaderMain,
@@ -24,6 +26,7 @@ export default {
     FooterMain,
     AdvantagesCeilings,
     ApplicationScreen,
+    HowToOrder,
   },
 };
 </script>
