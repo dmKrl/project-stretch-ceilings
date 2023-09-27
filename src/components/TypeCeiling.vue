@@ -2,22 +2,22 @@
   <div class="type">
     <h2 class="type-heading">Типы потолков</h2>
     <div class="type-checkbox">
-      <input class="type-change" id="Matte" type="radio" /><label
+      <input class="type-change" id="Matte" type="radio" name="typing"/><label
         class="type-checkbox-text"
         for="Matte"
         >Матовые</label
       >
-      <input class="type-change" id="Satin" type="radio" /><label
+      <input class="type-change" id="Satin" type="radio" name="typing"/><label
         class="type-checkbox-text"
         for="Satin"
         >Сатиновые</label
       >
-      <input class="type-change" id="Glossy" type="radio" /><label
+      <input class="type-change" id="Glossy" type="radio" name="typing"/><label
         class="type-checkbox-text"
         for="Glossy"
         >Глянцевые</label
       >
-      <input class="type-change" id="Multilevel" type="radio" /><label
+      <input class="type-change" id="Multilevel" type="radio" name="typing"/><label
         class="type-checkbox-text"
         for="Multilevel"
         >Многоуровневые</label
@@ -57,6 +57,7 @@ export default {
 }
 .type-checkbox {
   display: flex;
+  align-items: center;
   gap: 48px;
   margin-top: 32px;
 }
@@ -67,6 +68,7 @@ export default {
   gap: 10px;
 }
 .type-checkbox-text {
+  cursor: pointer;
   color: #333;
   font-family: Lato;
   font-size: 18px;
@@ -82,10 +84,8 @@ export default {
 }
 .type-checkbox input[type='radio']:checked + label {
   display: inline-flex;
-  padding: 12px 20px;
   align-items: flex-start;
-  gap: 10px;
   border-radius: 100px;
-  border: 2px solid #615bd6;
+  border: 1px solid #615bd6;
 }
 </style>

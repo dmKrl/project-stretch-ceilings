@@ -4,6 +4,7 @@ import MyLogo from '@/components/UI/MyLogo';
 import Contact from '@/components/UI/Contact';
 import PriceCeiling from '@/components/UI/PriceCeiling';
 import MainText from './MainText';
+import ButtonView from './ButtonView';
 
 export default [
   ButtonPrice,
@@ -12,4 +13,5 @@ export default [
   Contact,
   PriceCeiling,
   MainText,
+  ButtonView,
 ];
