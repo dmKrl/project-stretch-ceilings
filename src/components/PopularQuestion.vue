@@ -114,7 +114,7 @@ li {
   margin-left: 102px;
   background: #fff;
   padding: 50px 40px;
-  max-height: 269px;
+  max-height: 280px;
 }
 .questions-find {
   font-family: Rubik;

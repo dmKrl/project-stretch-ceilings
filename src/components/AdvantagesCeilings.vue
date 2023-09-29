@@ -22,22 +22,22 @@ export default {
     return {
       advantages: [
         {
-          img: '/img/waterSvg.1b239ec6.svg',
+          img: '../static/images/waterSvg.1b239ec6.svg',
           heading: 'Не затопят соседи',
           text: 'Потолки выдерживают до 100 литров воды на м2',
         },
         {
-          img: '/img/waterSvg.1b239ec6.svg',
+          img: '../static/images/waterSvg.svg',
           heading: 'Скорость установки',
           text: 'Монтаж потолка занимает 3 - 4 часа',
         },
         {
-          img: '/img/waterSvg.1b239ec6.svg',
+          img: '../img/waterSvg.1b239ec6.svg',
           heading: 'Долговечность',
           text: 'Со временем потолки не пожелтеют, не провиснут и не повредятся',
         },
         {
-          img: '/img/waterSvg.1b239ec6.svg',
+          img: '../img/waterSvg.1b239ec6.svg',
           heading: 'Простота ухода',
           text: 'Достаточно протирать мыльной водой один раз в 3 месяца',
         },
