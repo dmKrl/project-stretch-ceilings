@@ -6,6 +6,7 @@ import PriceCeiling from '@/components/UI/PriceCeiling';
 import MainText from './MainText';
 import ButtonView from './ButtonView';
 import OurProject from './OurProject';
+import HeadingAndButtons from './HeadingAndButtons';
 
 export default [
   ButtonPrice,
@@ -16,4 +17,5 @@ export default [
   MainText,
   ButtonView,
   OurProject,
+  HeadingAndButtons,
 ];

@@ -1,22 +1,25 @@
 <template>
-    <div>
-
-        <div>
-            <img src="" alt="">
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-        </div>
-    </div>
+  <div>
+    <heading-and-buttons />
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {
+  data() {
+    return {
+      item: [
+        {
+          img: '',
+          nameCeiling: '',
+          price: '',
+          collectionCanvas: '',
+          
+        },
+      ],
+    };
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
