@@ -1,6 +1,9 @@
 <template>
-  <div>
+  <div class="projects">
     <heading-and-buttons />
+  </div>
+  <div>
+
   </div>
 </template>
 
@@ -14,7 +17,6 @@ export default {
           nameCeiling: '',
           price: '',
           collectionCanvas: '',
-          
         },
       ],
     };
@@ -22,4 +24,11 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 140px;
+}
+</style>

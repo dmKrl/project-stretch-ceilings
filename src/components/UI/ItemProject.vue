@@ -4,16 +4,18 @@
       <img src="" alt="" />
       <p></p>
       <p></p>
-      <p></p>
-      <p></p>
+      <div>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'our-project',
-};
+export default {};
 </script>
 
 <style scoped></style>

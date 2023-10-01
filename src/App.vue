@@ -7,6 +7,7 @@
     <application-screen />
     <how-to-order />
     <popular-question />
+    <our-projects/>
     <vantage-work-us />
     <footer-main />
   </div>
@@ -22,6 +23,7 @@ import ApplicationScreen from './components/ApplicationScreen';
 import HowToOrder from './components/HowToOrder';
 import PopularQuestion from './components/PopularQuestion';
 import VantageWorkUs from './components/VantageWorkUs';
+import OurProjects from './components/OurProjects';
 export default {
   components: {
     HeaderMain,
@@ -33,6 +35,7 @@ export default {
     HowToOrder,
     PopularQuestion,
     VantageWorkUs,
+    OurProjects,
   },
 };
 </script>
@@ -50,6 +53,7 @@ a {
 
 button {
   border: none;
+  background: none;
   cursor: pointer;
 }
 

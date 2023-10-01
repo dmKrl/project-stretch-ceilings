@@ -55,6 +55,7 @@ export default {
   flex-direction: column;
   align-items: center;
   padding: 100px 140px;
+  background: #f4f4f4;
 }
 .vantage-heading {
   color: #333;

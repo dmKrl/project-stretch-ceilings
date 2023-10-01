@@ -5,7 +5,7 @@ import Contact from '@/components/UI/Contact';
 import PriceCeiling from '@/components/UI/PriceCeiling';
 import MainText from './MainText';
 import ButtonView from './ButtonView';
-import OurProject from './OurProject';
+import ItemProject from './ItemProject'
 import HeadingAndButtons from './HeadingAndButtons';
 
 export default [
@@ -16,6 +16,6 @@ export default [
   PriceCeiling,
   MainText,
   ButtonView,
-  OurProject,
   HeadingAndButtons,
+  ItemProject,
 ];
