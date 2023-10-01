@@ -1,4 +1,6 @@
 <template>
+  <!-- Исправить ошибку оторбажения картинок -->
+
   <div class="advantage">
     <div class="advantage-box" v-for="advantager in advantage">
       <img class="advantage-img" :src="advantager.img" alt="" />

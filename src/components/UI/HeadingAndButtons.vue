@@ -109,7 +109,7 @@ export default {
 
 <style scoped>
 .swipper-up {
-  width: 100%;
+  min-width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;

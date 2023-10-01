@@ -1,8 +1,16 @@
 <template>
+  <!-- Исправить ошибку оторбажения картинок -->
+
   <div class="order">
     <h2 class="order-heading">Как заказать</h2>
     <property-ceiling
-      style="display: flex; gap: 40px; margin-top: 64px; flex-wrap: wrap; justify-content: center;"
+      style="
+        display: flex;
+        gap: 40px;
+        margin-top: 64px;
+        flex-wrap: wrap;
+        justify-content: center;
+      "
       :advantage="order"
     />
   </div>

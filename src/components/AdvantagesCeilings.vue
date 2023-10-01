@@ -1,4 +1,6 @@
 <template>
+  <!-- Исправить ошибку оторбажения картинок -->
+
   <div class="advantages">
     <h2 class="advantages-heading">
       <price-ceiling>Преимущества</price-ceiling> натяжных потолков
