@@ -2,7 +2,7 @@
   <!-- Исправить ошибку оторбажения картинок -->
   <div class="swipper">
     <div class="swipper-item" v-for="item in items">
-      <img class="swipper-image" :src="item.image" alt="" />
+      <img class="swipper-image" :src="imgUrl" alt="" />
       <p class="swipper-name">{{ item.nameCeiling }}</p>
       <p class="swipper-price">{{ item.price }}</p>
       <div class="swipper-info">
@@ -38,6 +38,7 @@ export default {
       required: true,
     },
   },
+  base: 'http://localhost:8080/',
 };
 </script>
 

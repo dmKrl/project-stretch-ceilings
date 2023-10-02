@@ -11,7 +11,7 @@ export default {
     return {
       items: [
         {
-          img: '../static/images/ceiling1.png',
+          img: '@/static/images/ceiling1.png',
           nameCeiling: 'Матовый потолок в гостинной 52 м2',
           price: '20 500 ₽',
           collectionCanvas: 'EcoLine',
@@ -20,7 +20,7 @@ export default {
           angles: '4 шт',
         },
         {
-          img: '../static/images/ceiling1.png',
+          img: '@/static/images/ceiling1.png',
           nameCeiling: 'Многоуровневый потолок в гостинной 48 м2',
           price: '23 800 ₽',
           collectionCanvas: 'Descor',
@@ -41,7 +41,5 @@ export default {
   justify-content: center;
   flex-direction: column;
   padding: 100px 140px;
-}
-.projects-items {
 }
 </style>
