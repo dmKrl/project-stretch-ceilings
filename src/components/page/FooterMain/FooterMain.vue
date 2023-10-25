@@ -6,12 +6,12 @@
     </div>
     <div class="footer-nav">
       <a href="#"
-        ><img src="../static/images/facebookIcon.svg" alt="facebook"
+        ><img src="@/static/images/facebookIcon.svg" alt="facebook"
       /></a>
       <a href="#"
-        ><img src="../static/images/instaIcon.svg" alt="instagram"
+        ><img src="@/static/images/instaIcon.svg" alt="instagram"
       /></a>
-      <a href="#"><img src="../static/images/VKIcon.svg" alt="VK" /></a>
+      <a href="#"><img src="@/static/images/VKIcon.svg" alt="VK" /></a>
     </div>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div class="application">
     <div class="application-container">
-      <img class="application-img" src="../static/images/master.png" alt="" />
+      <img class="application-img" src="@/static/images/master.png" alt="" />
       <div class="application-box">
         <h2 class="appliction-heading">
           Оставьте заявку

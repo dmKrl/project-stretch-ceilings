@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import PropertyCeiling from './TypeCeiling/PropertyCeiling';
+import PropertyCeiling from '@/components/TypeCeiling/PropertyCeiling';
 export default {
   components: {
     PropertyCeiling,
@@ -24,22 +24,22 @@ export default {
     return {
       vantage: [
         {
-          img: '/img/waterSvg.1b239ec6.svg',
+          img: '@/img/waterSvg.1b239ec6.svg',
           heading: 'Скорость и чистота',
           text: 'Установим потолок за 3—4 часа и уберем после себя мусор',
         },
         {
-          img: '/img/waterSvg.1b239ec6.svg',
+          img: '@/img/waterSvg.1b239ec6.svg',
           heading: 'Работаем без выходных',
           text: 'Наши мастера приедут замерить и установить потолки в любое удобное для вас время',
         },
         {
-          img: '/img/waterSvg.1b239ec6.svg',
+          img: '@/img/waterSvg.1b239ec6.svg',
           heading: 'Гарантия 10 лет',
           text: 'Если что-то случится с потолком, мастера заменят его бесплатно',
         },
         {
-          img: '/img/waterSvg.1b239ec6.svg',
+          img: '@/img/waterSvg.1b239ec6.svg',
           heading: 'Качество материалов',
           text: 'Работаем только с лучшими европейскими материалам Eiro MSD, Pong, Descor',
         },

@@ -24,12 +24,12 @@ export default {
     return {
       advantages: [
         {
-          img: "require('../static/images/waterSvg.svg')",
+          img: "require('@/static/images/waterSvg.svg')",
           heading: 'Не затопят соседи',
           text: 'Потолки выдерживают до 100 литров воды на м2',
         },
         {
-          img: '../static/images/waterSvg.svg',
+          img: '@/static/images/waterSvg.svg',
           heading: 'Скорость установки',
           text: 'Монтаж потолка занимает 3 - 4 часа',
         },

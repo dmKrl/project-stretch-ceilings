@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import InformationTypeCeiling from './TypeCeiling/InformationTypeCeiling';
+import InformationTypeCeiling from '../../TypeCeiling/InformationTypeCeiling.vue';
 export default {
   components: {
     InformationTypeCeiling,

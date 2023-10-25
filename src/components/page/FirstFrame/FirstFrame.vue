@@ -9,7 +9,7 @@
       <button-price>Расчитать стоимость</button-price>
     </div>
     <div class="information-room">
-      <img src="../static/images/mainRoom.jpg" alt="" class="information-img" />
+      <img src="@/static/images/mainRoom.jpg" alt="" class="information-img" />
     </div>
   </div>
 </template>

@@ -7,23 +7,23 @@
     <application-screen />
     <how-to-order />
     <popular-question />
-    <our-projects/>
+    <our-projects />
     <vantage-work-us />
     <footer-main />
   </div>
 </template>
 
 <script>
-import HeaderMain from './components/HeaderMain';
-import FirstFrame from './components/FirstFrame';
-import TypeCeiling from './components/TypeCeiling';
-import FooterMain from './components/FooterMain';
-import AdvantagesCeilings from './components/AdvantagesCeilings';
-import ApplicationScreen from './components/ApplicationScreen';
-import HowToOrder from './components/HowToOrder';
-import PopularQuestion from './components/PopularQuestion';
-import VantageWorkUs from './components/VantageWorkUs';
-import OurProjects from './components/OurProjects';
+import HeaderMain from './components/page/HeaderMain/HeaderMain';
+import FirstFrame from './components/page/FirstFrame/FirstFrame';
+import TypeCeiling from './components/page/TypeCeiling/TypeCeiling';
+import FooterMain from './components/page/FooterMain/FooterMain';
+import AdvantagesCeilings from './components/page/AdvantagesCeilings/AdvantagesCeilings';
+import ApplicationScreen from './components/page/ApplicationScreen/ApplicationScreen';
+import HowToOrder from './components/page/HowToOrder/HowToOrder';
+import PopularQuestion from './components/page/PopularQuestion/PopularQuestion';
+import VantageWorkUs from './components/page/VantageWorkUs/VantageWorkUs';
+import OurProjects from './components/page/OurProject/OurProjects';
 export default {
   components: {
     HeaderMain,

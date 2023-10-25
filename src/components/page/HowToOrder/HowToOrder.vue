@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import PropertyCeiling from './TypeCeiling/PropertyCeiling';
+import PropertyCeiling from '../../TypeCeiling/PropertyCeiling';
 export default {
   components: {
     PropertyCeiling,
