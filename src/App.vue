@@ -9,6 +9,7 @@
     <popular-question />
     <our-projects />
     <vantage-work-us />
+    <about-us />
     <footer-main />
   </div>
 </template>
@@ -24,6 +25,7 @@ import HowToOrder from './components/page/HowToOrder/HowToOrder';
 import PopularQuestion from './components/page/PopularQuestion/PopularQuestion';
 import VantageWorkUs from './components/page/VantageWorkUs/VantageWorkUs';
 import OurProjects from './components/page/OurProject/OurProjects';
+import AboutUs from './components/page/AboutUs/AboutUs';
 export default {
   components: {
     HeaderMain,
@@ -36,6 +38,7 @@ export default {
     PopularQuestion,
     VantageWorkUs,
     OurProjects,
+    AboutUs,
   },
 };
 </script>
