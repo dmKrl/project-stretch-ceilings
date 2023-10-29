@@ -1,6 +1,6 @@
 <template>
   <div class="projects">
-    <heading-and-buttons />
+    <heading-and-buttons>Наши проекты</heading-and-buttons>
     <item-project :items="items" />
   </div>
 </template>

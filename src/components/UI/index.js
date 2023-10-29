@@ -5,8 +5,9 @@ import Contact from '@/components/UI/Contact';
 import PriceCeiling from '@/components/UI/PriceCeiling';
 import MainText from './MainText';
 import ButtonView from './ButtonView';
-import ItemProject from './ItemProject'
+import ItemProject from './ItemProject';
 import HeadingAndButtons from './HeadingAndButtons';
+import CommentOfUser from './CommentOfUser';
 
 export default [
   ButtonPrice,
@@ -18,4 +19,5 @@ export default [
   ButtonView,
   HeadingAndButtons,
   ItemProject,
+  CommentOfUser,
 ];
