@@ -27,15 +27,15 @@ export default {};
   align-items: flex-end;
   justify-content: center;
   background: #f4f4f4;
-  position: relative;
 }
 .application-container {
-    max-width: 1440px;
+  max-width: 1440px;
+  position: relative;
 }
 .application-img {
   position: absolute;
   bottom: 0;
-  left: 20vw;
+  left: 140px;
 }
 .application-heading {
   color: #333;

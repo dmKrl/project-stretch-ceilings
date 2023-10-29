@@ -10,6 +10,7 @@
     <our-projects />
     <vantage-work-us />
     <about-us />
+    <comments-users />
     <footer-main />
   </div>
 </template>
@@ -26,6 +27,8 @@ import PopularQuestion from './components/page/PopularQuestion/PopularQuestion';
 import VantageWorkUs from './components/page/VantageWorkUs/VantageWorkUs';
 import OurProjects from './components/page/OurProject/OurProjects';
 import AboutUs from './components/page/AboutUs/AboutUs';
+import CommentsUsers from './components/page/Comments/CommentsUsers';
+
 export default {
   components: {
     HeaderMain,
@@ -39,6 +42,7 @@ export default {
     VantageWorkUs,
     OurProjects,
     AboutUs,
+    CommentsUsers,
   },
 };
 </script>

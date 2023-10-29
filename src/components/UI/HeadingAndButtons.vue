@@ -1,6 +1,6 @@
 <template>
   <div class="swipper-up">
-    <header class="swipper-heading">Наши проекты</header>
+    <header class="swipper-heading"><slot></slot></header>
     <div class="swipper-skip">
       <button class="swipper-button swipper-button-right">
         <svg
