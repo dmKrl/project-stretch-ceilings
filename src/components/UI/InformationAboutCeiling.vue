@@ -1,16 +1,20 @@
 <template>
   <div class="information-ceiling">
-    <div class="information-props">
-      <p class="information-specifications">Гарантия</p>
-      <p class="information-text">10 лет на монтаж и материалы</p>
+    <div class="information-props" :class="stylesBlock">
+      <p class="information-specifications" :class="stylesText">Гарантия</p>
+      <p class="information-text" :class="stylesText">
+        10 лет на монтаж и материалы
+      </p>
     </div>
     <div class="information-props">
-      <p class="information-specifications">Скорость</p>
-      <p class="information-text">Замер и монтаж за 24 часа</p>
+      <p class="information-specifications" :class="stylesText">Скорость</p>
+      <p class="information-text" :class="stylesText">
+        Замер и монтаж за 24 часа
+      </p>
     </div>
     <div class="information-props">
-      <p class="information-specifications">Чистота</p>
-      <p class="information-text">Убираем за собой мусор</p>
+      <p class="information-specifications" :class="stylesText">Чистота</p>
+      <p class="information-text" :class="stylesText">Убираем за собой мусор</p>
     </div>
   </div>
 </template>
@@ -18,6 +22,16 @@
 <script>
 export default {
   name: 'information-about-ceiling',
+  props: {
+    stylesText: {
+      type: String,
+      required: true,
+    },
+    stylesBlock: {
+      type: String,
+      required: true,
+    },
+  },
 };
 </script>
 
@@ -30,6 +44,7 @@ export default {
 .information-props {
   display: flex;
   flex-direction: column;
+  max-width: 132px;
 }
 .information-specifications {
   font-family: Rubik;
@@ -49,5 +64,15 @@ export default {
   padding-top: 12px;
   font-weight: 500;
   line-height: normal;
+}
+.custom {
+  color: white;
+  -webkit-text-fill-color: white;
+  text-align: center;
+}
+.custom-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 </style>

@@ -11,6 +11,7 @@
     <vantage-work-us />
     <about-us />
     <comments-users />
+    <calculate-ceiling />
     <footer-main />
   </div>
 </template>
@@ -28,6 +29,7 @@ import VantageWorkUs from './components/page/VantageWorkUs/VantageWorkUs';
 import OurProjects from './components/page/OurProject/OurProjects';
 import AboutUs from './components/page/AboutUs/AboutUs';
 import CommentsUsers from './components/page/Comments/CommentsUsers';
+import CalculateCeiling from './components/page/CalculateCeiling/CalculateCeiling';
 
 export default {
   components: {
@@ -43,6 +45,7 @@ export default {
     OurProjects,
     AboutUs,
     CommentsUsers,
+    CalculateCeiling,
   },
 };
 </script>
